@@ -33,4 +33,4 @@ async def self(interaction: discord.Interaction):
 with open('token.txt') as f:
     TOKEN = f.readline()
 
-bot.run('MTA1NTI0NjA3MDgzMTEzMjczMw.Ggi4zi.ULCL_Ht5JGSFiO4Hn_yRDANECbxd8rok0E2VVc')
+bot.run(TOKEN)
